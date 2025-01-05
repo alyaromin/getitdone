@@ -7,6 +7,7 @@ from sqlalchemy import text
 def index():
     return render_template('index.html')
 
+
 @app.route('/check_connection')
 def check_connection():
     try:
